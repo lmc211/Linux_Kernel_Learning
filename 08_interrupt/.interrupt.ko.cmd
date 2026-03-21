@@ -1,0 +1,1 @@
+cmd_/home/alientek/Desktop/vscode/08_interrupt/interrupt.ko := ld -r  -m elf_x86_64 -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/alientek/Desktop/vscode/08_interrupt/interrupt.ko /home/alientek/Desktop/vscode/08_interrupt/interrupt.o /home/alientek/Desktop/vscode/08_interrupt/interrupt.mod.o;  true

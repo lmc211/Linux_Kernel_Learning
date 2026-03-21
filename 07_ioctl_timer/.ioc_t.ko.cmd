@@ -1,0 +1,1 @@
+cmd_/home/alientek/Desktop/vscode/07_ioctl_timer/ioc_t.ko := ld -r  -m elf_x86_64 -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/alientek/Desktop/vscode/07_ioctl_timer/ioc_t.ko /home/alientek/Desktop/vscode/07_ioctl_timer/ioc_t.o /home/alientek/Desktop/vscode/07_ioctl_timer/ioc_t.mod.o;  true

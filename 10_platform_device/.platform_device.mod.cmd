@@ -1,0 +1,1 @@
+cmd_/home/alientek/Desktop/vscode/10_platform_device/platform_device.mod := { echo  /home/alientek/Desktop/vscode/10_platform_device/platform_device.o;  echo; } > /home/alientek/Desktop/vscode/10_platform_device/platform_device.mod

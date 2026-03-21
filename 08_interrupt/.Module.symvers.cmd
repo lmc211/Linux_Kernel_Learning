@@ -1,0 +1,1 @@
+cmd_/home/alientek/Desktop/vscode/08_interrupt/Module.symvers := sed 's/\.ko$$/\.o/' /home/alientek/Desktop/vscode/08_interrupt/modules.order | scripts/mod/modpost -m -a  -o /home/alientek/Desktop/vscode/08_interrupt/Module.symvers -e -i Module.symvers   -T -

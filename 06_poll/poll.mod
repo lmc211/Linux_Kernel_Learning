@@ -1,0 +1,2 @@
+/home/alientek/Desktop/vscode/06_poll/poll.o
+

@@ -1,0 +1,1 @@
+cmd_/home/alientek/Desktop/vscode/07_ioctl_timer/Module.symvers := sed 's/\.ko$$/\.o/' /home/alientek/Desktop/vscode/07_ioctl_timer/modules.order | scripts/mod/modpost -m -a  -o /home/alientek/Desktop/vscode/07_ioctl_timer/Module.symvers -e -i Module.symvers   -T -

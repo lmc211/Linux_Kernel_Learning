@@ -1,0 +1,1 @@
+cmd_/home/alientek/Desktop/vscode/10_platform_device/modules.order := {   echo /home/alientek/Desktop/vscode/10_platform_device/platform_device.ko; :; } | awk '!x[$$0]++' - > /home/alientek/Desktop/vscode/10_platform_device/modules.order

@@ -1,0 +1,1 @@
+cmd_/home/alientek/Desktop/vscode/10_platform_device/platform_device.ko := ld -r  -m elf_x86_64 -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/alientek/Desktop/vscode/10_platform_device/platform_device.ko /home/alientek/Desktop/vscode/10_platform_device/platform_device.o /home/alientek/Desktop/vscode/10_platform_device/platform_device.mod.o;  true
