@@ -38,7 +38,7 @@ static int platform_device_init(void)
 
 static void platform_device_exit(void)
 {
-     platform_device_unregister(&platform_device_test);
+    platform_device_unregister(&platform_device_test);
     printk("platform_device_exit\n");
 }
 

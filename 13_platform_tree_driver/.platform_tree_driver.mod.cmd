@@ -1,0 +1,1 @@
+cmd_/home/alientek/Desktop/vscode/13_platform_tree_driver/platform_tree_driver.mod := { echo  /home/alientek/Desktop/vscode/13_platform_tree_driver/platform_tree_driver.o;  echo; } > /home/alientek/Desktop/vscode/13_platform_tree_driver/platform_tree_driver.mod

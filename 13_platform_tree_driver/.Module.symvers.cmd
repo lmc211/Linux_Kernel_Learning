@@ -1,0 +1,1 @@
+cmd_/home/alientek/Desktop/vscode/13_platform_tree_driver/Module.symvers := sed 's/\.ko$$/\.o/' /home/alientek/Desktop/vscode/13_platform_tree_driver/modules.order | scripts/mod/modpost -m -a  -o /home/alientek/Desktop/vscode/13_platform_tree_driver/Module.symvers -e -i Module.symvers   -T -

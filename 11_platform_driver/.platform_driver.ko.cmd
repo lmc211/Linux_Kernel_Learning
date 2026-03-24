@@ -1,0 +1,1 @@
+cmd_/home/alientek/Desktop/vscode/11_platform_driver/platform_driver.ko := ld -r  -m elf_x86_64 -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/alientek/Desktop/vscode/11_platform_driver/platform_driver.ko /home/alientek/Desktop/vscode/11_platform_driver/platform_driver.o /home/alientek/Desktop/vscode/11_platform_driver/platform_driver.mod.o;  true

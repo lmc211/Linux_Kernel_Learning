@@ -1,0 +1,1 @@
+cmd_/home/alientek/Desktop/vscode/11_platform_driver/platform_driver.mod := { echo  /home/alientek/Desktop/vscode/11_platform_driver/platform_driver.o;  echo; } > /home/alientek/Desktop/vscode/11_platform_driver/platform_driver.mod

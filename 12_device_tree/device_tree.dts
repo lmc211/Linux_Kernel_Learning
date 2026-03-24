@@ -1,0 +1,42 @@
+/dts-v1/;
+/ {
+    model = "This is my devicetree!";
+    #address-cells = <2>;
+    #size-cells = <2>;
+
+    //只能在根节点下面 chosen传递启动配置 bootargs内核命令行
+    chosen {
+        bootargs = "root=/dev/nfs rw nfsroot=192.168.1.1 console=ttyS0,115200";
+    };
+
+    aliases{
+        //led1 = &led;
+        led1 = "/gpio@22020101";
+    };
+
+    cpu1: cpu@1 {
+        device_type = "cpu"; //只能用于对cpu节点和memory节点的描述
+        compatible = "arm,cortex-a35", "arm,armv8";
+        reg = <0x0 0x1>;
+    };
+
+    node1{
+        #address-cells = <1>;
+        #size-cells = <1>;
+        node1{
+            reg = <0x20220102 0x40>;
+        };
+    };
+    node2{
+        node1-child{
+            pinnum = <0 1 2 3 4>; //自定义属性
+        };
+    };
+
+    led:gpio@22020101{
+        compatible = "led";
+        reg = <0x20220101 0x40>;
+        status="okay";
+    };
+
+};

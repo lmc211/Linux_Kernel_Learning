@@ -1,0 +1,1 @@
+dtc编译器路径 /home/alientek/rk3588_linux_sdk/kernel/scripts/dtc/dtc
